@@ -4,7 +4,6 @@
 
 Este projeto foi desenvolvido para a disciplina de **Computational Thinking & Application Server**. O objetivo é demonstrar a integração entre um Frontend estático e uma API RESTful desenvolvida em Node.js.
 
----
 
 ## 👨‍💻 Integrantes do Grupo
 
@@ -15,16 +14,14 @@ Este projeto foi desenvolvido para a disciplina de **Computational Thinking & Ap
 | **Guilherme Naoki Hirayama** | 563727 |
 | **Tandara Sartore Perez de Azevedo** | 566455 |
 
----
 
 ## 🛠️ Estrutura do Projeto
 
 O repositório está organizado em duas camadas principais:
 
 * 📁 **`/backend`**: Servidor Node.js com Express (API REST).
-* 📁 **`/frontend`**: Aplicação Web com HTML, Tailwind CSS e JS Vanilla.
+* 📁 **`/frontend`**: Aplicação Web com HTML, Tailwind CSS e JS.
 
----
 
 ## 🚀 Guia de Instalação e Execução
 
@@ -63,12 +60,9 @@ Agora que a API está ativa, vamos visualizar a aplicação.
 2.  Abra o arquivo `index.html` no seu navegador preferido.
     * *Dica:* Se estiver usando VS Code, clique com o botão direito no arquivo e escolha **"Open with Live Server"**.
 
----
 
 ## 🧪 Como Testar
 
 1.  Ao abrir o site, os cards das profissões devem carregar automaticamente.
 2.  Utilize os botões de filtro (Tecnologia, Saúde, etc.) para testar a interatividade.
 3.  Caso apareça uma mensagem de erro vermelha, verifique se o **Passo 1** foi executado corretamente.
-
----
