@@ -1,6 +1,6 @@
 async function buscarProfissoes() {
     try {
-        const resp = await fetch("http://localhost:3000/profissoes");
+        const resp = await fetch("http://localhost:3000/api/professions");
 
         if (!resp.ok) {
             throw new Error(`Erro ao carregar dados (${resp.status})`);
