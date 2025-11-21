@@ -76,10 +76,12 @@ document.addEventListener("DOMContentLoaded", async () => {
             card.innerHTML = `
                 <img src="${p.imagem}" class="w-full h-40 object-cover">
                 <div class="p-4 flex flex-col h-full">
+                <div class="flex-1">
                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">${p.titulo}</h3>
                     <p class="text-sm text-gray-700 dark:text-gray-300 mb-0.5"><strong>Área:</strong> ${p.area}</p>
                     <p class="text-sm text-gray-700 dark:text-gray-300 mb-0.5"><strong>Descrição:</strong> ${p.descricao}</p>
                     <p class="text-sm text-gray-700 dark:text-gray-300 mb-0.5"><strong>Salário:</strong> ${formatarSalario(p.mediaSalarial)}</p>
+                </div>
                 </div>
             `;
 
