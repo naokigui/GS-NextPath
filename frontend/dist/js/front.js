@@ -74,8 +74,8 @@ document.addEventListener("DOMContentLoaded", async () => {
                 // "border border-gray-300 dark:border-gray-800 rounded-lg shadow bg-white dark:bg-gray-900 overflow-hidden transition hover:scale-105";
 
             card.innerHTML = `
-                <img src="${p.imagem}" class="w-full h-40 object-cover">
-                <div class="p-4 flex flex-col h-full">
+                <img src="${p.imagem}" class="w-full h-40 object-cover mb-3">
+                <div class="p-4 flex flex-col h-full justify-center items-center">
                 <div class="flex-1">
                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">${p.titulo}</h3>
                     <p class="text-sm text-gray-700 dark:text-gray-300 mb-0.5"><strong>Área:</strong> ${p.area}</p>
